@@ -1,22 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 html, body {
 
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.host {
     background-repeat: no-repeat;
     background: #2c3e50;
     background: -webkit-linear-gradient(#2c3e50, #34495e); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#2c3e50, #34495e); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#2c3e50, #34495e); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#2c3e50, #34495e); /* Standard syntax */
+    background: linear-gradient(#3c2e40, #34495e); /* Standard syntax */
 }
 
 #app {
+  height: 100%;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   color: #fff;
   display: block;
   vertical-align: center;
-  margin: 40% auto;
+  padding-top: 40%;
 }
 
 #app div {
@@ -28,13 +39,13 @@ html, body {
 
 #app h1 {
   font-size: 4rem;
-  font-weight: normal;
+  font-weight: lighter;
   text-align: center;
 }
 
 #app h2 {
   font-size: 3rem;
-  font-weight: normal;
+  font-weight: lighter;
   text-align: center;
 }
 
@@ -48,7 +59,7 @@ html, body {
   display: block;
 }
 
-.two-option {
+.container {
   display: flex;
   justify-content: center;
 }
