@@ -26,6 +26,14 @@ html, body {
     background: linear-gradient(#3c2e40, #34495e); /* Standard syntax */
 }
 
+.joined .header {
+    background-repeat: no-repeat;
+    background: #fd676a;
+    background: -webkit-linear-gradient(#fd676a, #fd1999); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fd676a, #fd1999); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fd676a, #fd1999); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fd676a, #fd1999); /* Standard syntax */
+}
 
 #app {
   height: 100%;
@@ -36,7 +44,7 @@ html, body {
   vertical-align: center;
 }
 
-#app.host {
+#app.host, #app.joined {
   background: #eee;  
   font-weight: lighter;
 }
@@ -86,7 +94,7 @@ html, body {
   justify-content: center;
 }
 
-.host .header .container {
+ .header .container {
   display: flex;
   justify-content: space-between;
   margin: 0;
