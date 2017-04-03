@@ -1,4 +1,12 @@
 {
+  "name": "split-that-bill",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "babel": "babel --presets es2016 js/main.js build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack"
+  },
   "devDependencies": {
     "babel-loader": "^6.4.1",
     "webpack": "^2.3.3"
