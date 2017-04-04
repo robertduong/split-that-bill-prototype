@@ -4,3 +4,5 @@ node_modeles/*
 *.log
 build
 build/*
+dist
+dist/*
